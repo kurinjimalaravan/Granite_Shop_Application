@@ -1,0 +1,64 @@
+.widget {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 4px 10px 1px gray;
+    border-radius: 10px;
+    border: 2px solid var(--color-primary);
+    height: 130px;
+    width: 200px;
+    margin-top: 5%;
+}
+
+.left,
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.atitle {
+    font-weight: bold;
+    font-size: 14px;
+    color: darkred;
+}
+
+.acounter {
+    font-size: 20px;
+    font-weight:500;
+    
+    color: darkred;
+}
+
+.link {
+    width: max-content;
+    font-size: 12px;
+    border-bottom: 1px solid navy;
+    color: navy;
+}
+
+.percentage {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+}
+
+.positive {
+    color: darkgreen;
+}
+
+.negative {
+    color: red;
+}
+
+.aicon {
+    
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    align-self: flex-end;
+}

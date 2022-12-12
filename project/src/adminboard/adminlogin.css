@@ -1,0 +1,13 @@
+.adminlogin{
+    
+    margin-top: 10%;
+    align-items: center;
+}
+.loginhead{
+    color: var(--color-secondary);
+    text-align: center;
+}
+.adminlogform{
+    align-items: center;
+    margin-left: 41%;
+}

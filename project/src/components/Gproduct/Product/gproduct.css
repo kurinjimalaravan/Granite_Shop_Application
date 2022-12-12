@@ -1,0 +1,88 @@
+.product{
+  margin-top: 10%;
+}
+.h3a {
+  text-align: center;
+  padding: 2rem;
+}
+.h3a a:hover {
+  color: var(--color-primary);
+  
+}
+
+
+.ph3 p{
+  margin-left: 39%;
+  padding: 10px;
+  width: 295px;
+  background: var(--color-secondary);
+  color: var(--color-gray-600);
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: 900;
+}
+  .sectiong {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    
+  }
+  .cards {
+    width: 350px;
+    padding: 30px;
+  }
+  .cards:hover {
+    box-shadow: 0 10px 10px 10px rbga(0, 0, 0, white);
+    /* cursor: pointer; */
+  }
+  /* .image_box img {
+    width: 250px;
+    height: 200px;
+  } */
+  
+  .image_box img {
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+  }
+  .details p:nth-child(1) {
+    font-weight: bold;
+  }
+  .details p:nth-child(2) {
+    color: grey;
+    font-size: 0.8rem;
+  }
+  .details p:nth-child(3) {
+    font-weight: bolx;
+    color: grey;
+  }
+  .details button {
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background: var(--color-primary);
+    border-radius: 0.3rem;
+    outline: none;
+    cursor: pointer;
+    align-items : center;
+  }
+  
+  .pbutt{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: var(--color-primary);
+    color: var(--color-gray-600);
+    width: 10%;
+    padding: 10px;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 45%;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+
+  img:hover{
+    transform: scaleX(-1);;
+  }

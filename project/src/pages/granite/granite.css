@@ -1,0 +1,29 @@
+ /* .programs{
+    margin-top: 8rem;
+    
+  }
+
+  .programs_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+    
+  }
+
+  .programs_program a{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+  }
+
+.programs_program:hover a{
+    background: var(--color-secondary);
+    color: var(--color-gary-600);
+    
+}
+
+
+ */

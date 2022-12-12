@@ -1,0 +1,36 @@
+.signpage{
+    text-align: center;
+    margin-right: 20%;
+    margin-top: 1%;
+}
+.FormApp{
+    margin-top: 5%;
+    display: flex;
+    font-size: 15px;
+    padding: 5px;
+    gap: 10rem;
+}
+.FormApp p{
+    margin-top: 5px;
+    text-decoration: underline;
+}
+.FormApp p:hover{
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+.signpage h1{
+    color: var(--color-secondary);
+    
+}
+
+.formimg{
+    margin-top: 8%;
+    margin-left: 5%;   
+    
+}
+.formimg img{
+    width: 40rem;
+    height: 25rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px solid red;
+}

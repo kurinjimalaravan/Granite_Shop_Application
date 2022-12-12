@@ -1,0 +1,27 @@
+.order{
+    margin-top: 3%;
+    text-align: center;
+}
+.order h1{
+    color: var(--color-secondary);
+}
+
+.ipt{
+    border-radius: 0.2rem;
+    border: 2px solid var(--color-primary);
+    padding: 10px;
+    width: 16rem;
+}
+
+.submbut{
+    margin-left: 45%;
+    padding: 10px;
+    background-color: var(--color-primary);
+    color: white;
+    width: 150px;
+    border-radius: 0.5rem;
+}
+.submbut:hover{
+    background-color: var(--color-secondary);
+    color: navy;
+}
